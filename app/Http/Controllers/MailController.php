@@ -15,7 +15,7 @@ class MailController extends Controller
     public function sendMail(Request $request)
     {
         $request->validate([
-            'receiver_email'    => 'required|email|unique:users,email',
+            'receiver_email'    => 'required|email',
             'subject'           => 'required',
             'message'           => 'required'
         ]);

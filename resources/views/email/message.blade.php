@@ -65,3 +65,17 @@ Thank you for your prompt cooperation. We are committed to assisting you in reso
 Best regards,
 
 Interserver Webhosting Team. --}}
+
+{{-- I hope this message finds you well. We wanted to urgently remind you about the upcoming annual maintenance for your website, https://sovereignpulsebk.com/.
+
+As previously discussed, our annual maintenance fee is $14, which ensures the smooth functioning and security of your online presence. This fee is a once-a-year investment to maintain the high-quality performance of your website.
+
+Please note that the deadline for completing the annual maintenance is in 4 days. Failure to do so may result in limitations on the website's functionality or access.
+
+To avoid any disruptions or inconveniences, we kindly ask that you proceed with the payment within the next 4 days.
+
+If you have any questions or need assistance, please feel free to reach out to us. We are here to help ensure that your website continues to operate efficiently and effectively.
+
+Thank you for your attention to this matter.
+
+Best regards, --}}

@@ -79,3 +79,20 @@ If you have any questions or need assistance, please feel free to reach out to u
 Thank you for your attention to this matter.
 
 Best regards, --}}
+
+{{-- We are pleased to confirm the successful receipt of your payment for the annual maintenance fee of $14 for your website, shieldstarbk.com.
+
+Payment Details:
+
+Amount Paid: $14.00
+Payment Method: Credit Card
+Transaction ID: TXN1234567890
+Payment Date: March 7, 2024
+
+Your payment has been processed, and your website's annual maintenance is now up-to-date. You can continue to enjoy the high-quality performance and security that comes with our maintenance services.
+
+Please do not hesitate to contact us if you have any questions or require further assistance. We are here to ensure your website operates efficiently and effectively.
+
+Thank you for your prompt attention to the maintenance of your website.
+
+Best regards, --}}

@@ -96,3 +96,88 @@ Please do not hesitate to contact us if you have any questions or require furthe
 Thank you for your prompt attention to the maintenance of your website.
 
 Best regards, --}}
+
+{{-- Certainly! Here's the revised content section to inform the client about the consequences of failing to pay after the deadline has passed, with an additional 5-day grace period:
+
+---
+
+### Notice of Overdue Payment and Possible Website Suspension
+
+Dear [Client's Name],
+
+We hope this message finds you well. We regret to inform you that the deadline for the annual maintenance fee of $14 for your website, [Website Link], has passed without payment.
+
+**Payment Details:**
+- **Amount Due:** $14.00 USD
+- **Original Deadline:** [Original Deadline Date]
+- **Current Date:** [Current Date]
+
+As of today, the payment is [Number of Days] days overdue. Please note the following important information regarding the consequences of the overdue payment:
+
+1. **Immediate Action Required:**
+   - To avoid further disruptions to your website's functionality, we urge you to make the payment within the next 5 days.
+
+2. **Possible Limitations:**
+   - Failure to complete the payment within the additional 5-day period may result in limitations on website features, including but not limited to email services, PDF features, or access to certain sections of the site.
+
+3. **Website Suspension:**
+   - Should the payment remain outstanding after the additional 5 days, we reserve the right to temporarily suspend your website until the payment is settled.
+
+**Payment Deadline Extension:**
+- **New Payment Deadline:** [New Payment Deadline Date]
+- **Additional Grace Period:** 5 days from today
+
+Please take the necessary steps to settle the outstanding amount to avoid any disruptions or suspensions to your website's services. You can make the payment using the same method provided earlier.
+
+If you have any questions or concerns regarding the payment process or need assistance, please do not hesitate to reach out to us. We are here to help ensure a smooth experience for you.
+
+Thank you for your attention to this matter.
+
+Best regards,
+
+[Your Name]
+[Your Company Name]
+[Contact Information]
+
+---
+
+Replace the placeholders such as `[Original Deadline Date]`, `[Current Date]`, `[Number of Days]`, `[New Payment Deadline Date]` with the appropriate details before sending the message to your client. This section will inform your client about the overdue payment and the steps they need to take to avoid website limitations or suspension. --}}
+
+
+{{-- We hope this message finds you well. We regret to inform you that the deadline for the annual maintenance fee of $14 for your website, https://sovereignpulsebk.com/., has passed without payment.
+
+Payment Details:
+
+Amount Due: $14.00
+Original Deadline: 03/09/2024
+
+Current Date: 03/10/2024
+
+
+As of today, the payment is 1 day overdue. Please note the following important information regarding the consequences of the overdue payment:
+
+Immediate Action Required:
+
+To avoid further disruptions to your website's functionality, we urge you to make the payment within the next 5 days.
+
+Possible Limitations:
+
+Failure to complete the payment within the additional 5-day period may result in limitations on website features, including but not limited to email services, PDF features, or access to certain sections of the site.
+
+Website Suspension:
+
+Should the payment remain outstanding after the additional 5 days, we reserve the right to suspend your website until the payment is settled temporarily.
+
+Payment Deadline Extension:
+
+New Payment Deadline: 03/015/2024
+
+Additional Grace Period: 5 days from today
+
+Please take the necessary steps to settle the outstanding amount to avoid any disruptions or suspensions to your website's services. You can make the payment using the same method provided earlier.
+
+If you have any questions or concerns regarding the payment process or need assistance, please do not hesitate to contact us. We are here to help ensure a smooth experience for you.
+
+Thank you for your attention to this matter.
+
+Best regards. --}}

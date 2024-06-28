@@ -15,7 +15,6 @@
 
             .container {
                 width: 100%;
-                max-width: 600px;
                 margin: 0 auto;
                 background-color: #ffffff;
                 border: 1px solid #dddddd;
@@ -74,7 +73,7 @@
             </div>
             <div class="content">
                 <h1>{{ $subject }}</h1>
-                <p>Dear Customer,</p>
+                {{-- <p>Dear {{ $data['email'] }},</p> --}}
                 <p>
                     {!! $data['message'] !!}
                 </p>

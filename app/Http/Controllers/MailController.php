@@ -31,11 +31,12 @@ class MailController extends Controller
 
         $emailData = [
             'message'   => $request->message,
-            'email'     => $request->receiver_email
+            'email'     => $request->receiver_email,
+            'subject'   => $request->subject
         ];
 
         try {
-            Mail::to($request->receiver_email)->send(new Message($emailData, $request->subject));
+            Mail::to($request->receiver_email)->send(new Message($emailData, $request->subject . ' ' . now()));
         } catch (\Exception $e) {
             return back()->with('error', $e->getMessage());
         }

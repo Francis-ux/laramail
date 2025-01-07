@@ -80,7 +80,7 @@
                 <p>Thank You,<br>InterServer Team.</p>
             </div>
             <div class="footer">
-                © 2024 - All Rights Reserved. InterServer, PO BOX 1707 Englewood Cliffs NJ 07632 - 201-605-1440
+                © {{ date('Y') }} - All Rights Reserved. InterServer, PO BOX 1707 Englewood Cliffs NJ 07632 - 201-605-1440
                 <br><a href="https://www.interserver.net">www.interserver.net</a>
             </div>
         </div>

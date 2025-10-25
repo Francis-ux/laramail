@@ -36,7 +36,7 @@ class MailController extends Controller
         ];
 
         try {
-            Mail::to($request->receiver_email)->send(new Message($emailData, $request->subject . ' ' . now()));
+            Mail::to($request->receiver_email)->send(new Message($emailData, $request->subject));
         } catch (\Exception $e) {
             return back()->with('error', $e->getMessage());
         }

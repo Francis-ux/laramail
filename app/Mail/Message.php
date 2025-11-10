@@ -37,7 +37,7 @@ class Message extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'email.plain',
+            view: 'email.interserver',
         );
     }
 

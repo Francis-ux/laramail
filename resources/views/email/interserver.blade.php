@@ -72,8 +72,6 @@
                 <img src="https://www.interserver.net/images/logo.png" alt="InterServer Logo">
             </div>
             <div class="content">
-                {{-- <h1>{{ $data['subject'] }}</h1> --}}
-                {{-- <p>Dear {{ $data['email'] }},</p> --}}
                 <p>
                     {!! $data['message'] !!}
                 </p>

@@ -12,7 +12,7 @@
                         <b>{{ session()->get('success') }}</b>
                     </div>
                 @endif
-                <form action="{{ route('send-api-subscription-mail') }}" method="post">
+                <form action="{{ route('send-plain-email') }}" method="post">
                     @csrf
                     <div class="card rounded shadow border-0">
                         <div class="card-body">

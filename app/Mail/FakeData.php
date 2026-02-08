@@ -9,16 +9,19 @@ use Illuminate\Mail\Mailables\Content;
 use Illuminate\Mail\Mailables\Envelope;
 use Illuminate\Queue\SerializesModels;
 
-class Message extends Mailable
+class FakeData extends Mailable
 {
     use Queueable, SerializesModels;
+
+    public $subject, $data;
 
     /**
      * Create a new message instance.
      */
-    public function __construct(public $data, public $subject)
+    public function __construct($subject, $data)
     {
         $this->subject = $subject;
+        $this->data = $data;
     }
 
     /**
@@ -37,7 +40,7 @@ class Message extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'email.interserver',
+            view: 'email.fake_data',
         );
     }
 

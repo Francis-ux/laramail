@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\ApiSubscriptionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,7 @@ Route::middleware('auth')->group(function () {
 Route::middleware('auth')->group(function () {
     Route::get('/mail', [MailController::class, 'mail'])->name('mail');
     Route::post('/send-mail', [MailController::class, 'sendMail'])->name('send-mail');
+    Route::post('/send-api-subscription-mail', [ApiSubscriptionController::class, 'sendMail'])->name('send-api-subscription-mail');
 });
 
 require __DIR__ . '/auth.php';

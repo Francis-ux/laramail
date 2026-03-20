@@ -40,7 +40,7 @@ class Plain extends Mailable
     public function content(): Content
     {
         return new Content(
-            view: 'email.plain2',
+            view: 'email.plain',
         );
     }
 

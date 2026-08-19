@@ -1,0 +1,65 @@
+[Fwd: Re: Issue 88431652: Suspected fraudulent banking platform at access.unitedgraybnk.com]
+
+---------------------------- Original Message ----------------------------
+Subject: Re: Issue 88431652: Suspected fraudulent banking platform at
+access.unitedgraybnk.com
+From: "Netcraft Takedown Service" <takedown-response+88431652@netcraft.com>
+Date: Wed, August 19, 2026 12:29 pm
+To: abuse@trouble-free.net
+-----------------------------------------------------------
+
+Dear Sir or Madam,
+
+We have discovered a suspected fraudulent banking platform at:
+
+hxxps://access.unitedgraybnk.com/[67.217.57.170]
+hxxp://access.unitedgraybnk.com/[67.217.57.170]
+hxxps://access.unitedgraybnk.com/[67.217.57.170]
+
+We previously contacted you about this issue on 2026-07-19 10:28:16 (UTC).
+
+Since our last notification, the following additional URL(s) have been detected:
+
+hxxp://access.unitedgraybnk.com/
+hxxps://access.unitedgraybnk.com/
+
+We have good reason to suspect that this is a fraudulent banking platform, created to defraud the public of their payment information, credentials, and money.
+
+Fake banking platforms impersonate legitimate financial institutions and offer online banking services, payment facilities, account management, loans, transfers, or other financial services in order to defraud consumers. These websites may be used by fraudsters to deceive victims into submitting credentials, payment information, personal information, or transferring money under false pretences.
+
+The promotion of financial services is subject to regulation in many countries. Financial institutions and online banking services may be required to comply with applicable laws and regulations governing financial services, consumer protection, data protection, and electronic transactions.
+
+Fraudulent banking websites may exhibit characteristics that can help confirm their fraudulent nature, including but not limited to the following:
+
+* Claims of being an established financial institution without verifiable authorization or registration.
+* Requests for sensitive banking credentials, payment information, or personal identification without adequate security or legitimate business justification.
+* Misleading claims regarding account balances, deposits, transfers, loans, or other financial services.
+* Use of banking names, logos, certificates, or regulatory information belonging to legitimate organizations without authorization.
+* Claims that the company is authorised by one or more regulatory agencies when no such authorisation exists.
+* No verifiable physical address, telephone number, or legitimate customer-support information.
+* Website claims that the company has many years of financial or banking experience despite evidence suggesting that the website or domain is recently established.
+* Use of misleading testimonials or claims intended to create a false impression of legitimacy.
+
+Please remove this fraudulent content, and any other associated fraudulent content, as soon as possible.
+
+More information about the detected issue is provided at:
+
+https://incident.netcraft.com/reports/ld7plwlrxrpvnkmoxpydxq
+See https://incident.netcraft.com/about for more details including API
+support.
+
+Regards,
+
+Netcraft
+
+Phone: +44(0)1225 447500
+Fax: +44(0)1225 448600
+Netcraft Issue Number: 88431652
+
+To contact us about updates regarding this attack, please respond to this
+email. Please note: replies to this address will be logged, but aren't
+always read. If you believe you have received this email in error, or you
+require further support, please contact: support@netcraft.com.
+
+This mail can be parsed with x-arf tools. Visit http://www.xarf.org/ for
+more information about x-arf.

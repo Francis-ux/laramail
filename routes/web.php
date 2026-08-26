@@ -1,9 +1,10 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\MailController;
-use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ApiSubscriptionController;
+use App\Http\Controllers\MailController;
+use App\Http\Controllers\MailTwoController;
+use App\Http\Controllers\ProfileController;
+use Illuminate\Support\Facades\Route;
 
 /*
 |--------------------------------------------------------------------------
@@ -42,6 +43,9 @@ Route::middleware('auth')->group(function () {
     Route::post('/send-fake-data-mail', [MailController::class, 'sendFakeDataMail'])->name('send-fake-data-mail');
 
     Route::post('/send-plain-email', [MailController::class, 'sendPlainMail'])->name('send-plain-email');
+
+    Route::get('/mail2', [MailTwoController::class, 'mail'])->name('mail2');
+    Route::post('/send-pulumi-mail', [MailTwoController::class, 'sendPulumiMail'])->name('send-pulumi-mail');
 });
 
 require __DIR__ . '/auth.php';

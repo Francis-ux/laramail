@@ -38,6 +38,8 @@ class MailController extends Controller
             'subject'   => $request->subject
         ];
 
+        config(['mail.from.address' => 'noreply@interserver.net', 'mail.from.name' => 'My InterServer']);
+
         try {
             Mail::to($request->receiver_email)->send(new Interserver($emailData, $request->subject . ' - ' . now()));
         } catch (\Exception $e) {

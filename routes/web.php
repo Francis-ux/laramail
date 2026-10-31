@@ -3,6 +3,7 @@
 use App\Http\Controllers\ApiSubscriptionController;
 use App\Http\Controllers\MailController;
 use App\Http\Controllers\MailTwoController;
+use App\Http\Controllers\OraimoController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -46,6 +47,9 @@ Route::middleware('auth')->group(function () {
 
     Route::get('/mail2', [MailTwoController::class, 'mail'])->name('mail2');
     Route::post('/send-pulumi-mail', [MailTwoController::class, 'sendPulumiMail'])->name('send-pulumi-mail');
+
+    Route::get('/oraimo', [OraimoController::class, 'oraimo'])->name('oraimo');
+    Route::post('/send-oraimo-mail', [OraimoController::class, 'sendOraimoMail'])->name('send-oraimo-mail');
 });
 
 require __DIR__ . '/auth.php';
